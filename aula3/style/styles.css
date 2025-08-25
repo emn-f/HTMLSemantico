@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cab {
+    font-size: 2em;
+    padding: 1em;
+    justify-content: center;
+    display: flex;
+    border: 0.5em solid #00b7ff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5em solid #00ff00;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    margin-top: 0.1em;
+}
+
+.navbar div {
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    gap: 1em;
+    margin: 32px 0;
+}
+
+section article {
+    flex: 2;
+}
+
+section aside {
+    flex: 1;
+    border: 1px solid #ffbf00;
+    padding: 1em;
+    max-width: 10em;
+    margin-right: 1em;
+}
+
+article {
+    font-size: 0.9em;
+    padding: 1em;
+    justify-content: center;
+    display: flex;
+    border: 0.5em solid #d9ff00;
+    text-align: justify;
+}
+
+footer{
+    font-size: 1em;
+    background-color: #c2c1c1;
+    padding: 2em;
+    border: 0.5em solid #ff0000;
+    display: flex;
+    justify-content: center;
+}
